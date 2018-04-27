@@ -1,4 +1,4 @@
-class Persona (object):
+class Persona(object):
 
     nombre = None
     apellido = None
@@ -10,11 +10,11 @@ class Persona (object):
         self.apellido=apellido
         self.fecha_nacimiento = fecha_de_nacimiento
 
-class Artistas (Persona):
+class Artistas(Persona):
 
     pass
 
-class Autores (Persona):
+class Autores(Persona):
 
     nacionalidad = None
 
